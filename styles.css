@@ -1,0 +1,148 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: #000;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #111;
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .navbar nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .navbar nav a:hover {
+    color: #ffcc00;
+  }
+  
+  .language {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .play-btn {
+    background-color: #ffcc00;
+    color: #111;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .play-btn:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Main Background */
+  .background {
+    background: url(https://s3-alpha-sig.figma.com/img/026b/441a/88dfc0194633755f033f7f553dfded55?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I2LdHjYVOz1H99w~IIJqkOYkeMaFOKMJ35J079Tqdp45QpV-5an88phHyp2Wc9WKezaWrK1vQEKHrMhX8eUkdJNrB-fo17~yQFkD1bPK4YJcjoFfb8vMLgG8gz1CCixXwEPvfMWTq2Sv1l81ST4vkX9X94yLqBdQo1vpspH5h0~PWYIE5p4a43aqivb97JX2kh1v9TIAVzz334kV6vGxHfTHra3kRHTFUBR1iaCco0C7yrjI9cxi9t9svkfn~FiuPrYZKAWxSx76isYdnGK1VsP4506dO97KIXaOiGGuXHkst~cjtkRXJMEHKTEX~KgMlecrpVnLFWYe1t512S7wAw__) no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 30px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #111;
+  }
+  
+  .pc {
+    background-color: #ffcc00;
+  }
+  
+  .pc:hover {
+    background-color: #e6b800;
+  }
+  
+  .console {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  
+  .console:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #111;
+    padding: 15px 30px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .footer-content .social a {
+    margin-left: 15px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-content .social a:hover {
+    color: #ffcc00;
+  }
+  
